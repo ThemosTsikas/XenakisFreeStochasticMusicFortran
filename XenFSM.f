@@ -91,7 +91,7 @@ C                                             	                        XEN   90
       PRINT 40,TETA,Z1,Z2                                               XEN   95
  40   FORMAT('1  THE TETA TABLE = ',/,21(12F10.6,/),4F10.6,/////,       XEN   96
      1' THE Z1 TABLE = ',/,7F6.2,E12.3,///,' THE Z2 TABLE = ',/,8F14.8,/XEN   97
-     11H1)                                                              XEN   98
+     21H1)                                                              XEN   98
       READ 50,DELTA,V3,A10,A20,A17,A30,A35,BF,SQPI,EPSI,VITLIM,ALEA,   AXEN   99
      1LIM                                                               XEN  100
  50   FORMAT(F3.0,F3.3,5F3.1,F2.0,F8.7,F8.8,F4.2,F8.8,F5.2)             XEN  114
